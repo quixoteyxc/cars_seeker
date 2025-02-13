@@ -1,7 +1,7 @@
 import Link from 'next/link';
-import VehicleService from "../../../../services/vehicleService";
-import {years} from "../../../../constants/availableYears";
-import {VehicleMake} from "../../../../constants/interfaces/CarModel";
+import VehicleService from '../../../../services/vehicleService';
+import { years } from '../../../../constants/availableYears';
+import { VehicleMake } from '../../../../constants/interfaces/CarModel';
 
 export async function generateStaticParams() {
   const vehicleService = new VehicleService();
